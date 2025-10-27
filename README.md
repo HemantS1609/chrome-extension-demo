@@ -1,6 +1,4 @@
-Sure — here’s the **pure README content** (no code fences, no extra formatting) ready to paste into your `README.md` file 👇
 
----
 
 # 🌈 Hello Chrome Extension
 
