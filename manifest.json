@@ -7,9 +7,9 @@
   "action": {
     "default_popup": "index.html",
     "default_icon": {
-      "16": "icon24.png",
-      "48": "icon24.png",
-      "128": "icon24.png"
+      "16": "icons/icon24.png",
+      "48": "icons/icon24.png",
+      "128": "icons/icon24.png"
     }
   }
 }
