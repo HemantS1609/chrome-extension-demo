@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Hello Chrome Extension",
+  "version": "1.0",
+  "description": "A simple demo Chrome extension that changes page color.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon24.png",
+      "48": "icon24.png",
+      "128": "icon24.png"
+    }
+  }
+}

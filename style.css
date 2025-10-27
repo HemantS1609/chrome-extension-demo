@@ -1,0 +1,192 @@
+body {
+  width: 260px;
+  padding: 16px;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Glassmorphism Options */
+.option {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(6px);
+}
+
+.option img {
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+}
+
+.option span {
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.option:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Divider */
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 4px 0;
+  transition: background 0.3s ease;
+}
+
+/* Footer */
+.footer {
+  font-size: 11px;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+/* Dark Theme */
+body.dark {
+  background: rgb(37, 46, 73);
+  color: #fff;
+}
+
+body.dark h2 {
+  color: #00eaff;
+  text-shadow: 0 0 10px #00eaff66;
+}
+
+body.dark .option {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+body.dark .option:hover {
+  background: rgba(0, 234, 255, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 234, 255, 0.2);
+}
+
+body.dark .option span {
+  color: #fff;
+}
+
+body.dark .divider {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+body.dark .footer {
+  color: #aaa;
+}
+
+/* Light Theme */
+body.light {
+  background: rgb(239, 245, 255);
+  color: rgb(38, 48, 74);
+}
+
+body.light h2 {
+  color: rgb(38, 48, 74);
+  text-shadow: none;
+}
+
+body.light .option {
+  background: rgba(38, 48, 74, 0.05);
+}
+
+body.light .option:hover {
+  background: rgba(0, 173, 255, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 173, 255, 0.2);
+}
+
+body.light .option span {
+  color: rgb(38, 48, 74);
+}
+
+body.light .divider {
+  background: rgba(38, 48, 74, 0.1);
+}
+
+body.light .footer {
+  color: rgb(38, 48, 74);
+}
+
+/* Modal Styles */
+/* .modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  color: #000;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.modal-buttons button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+#closeForm,
+.close {
+  background: #ff4d4d;
+  color: #fff;
+}
+
+button[type="submit"] {
+  background: #00eaff;
+  color: #000;
+} */
+
+/* Close icon */
+/* .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 22px;
+  cursor: pointer;
+} */
