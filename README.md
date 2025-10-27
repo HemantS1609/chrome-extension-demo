@@ -24,9 +24,7 @@ A lightweight, modern Chrome Extension that demonstrates popup UI design, theme 
 hello-chrome-extension
 │
 ├── icons/
-│ ├── icon16.png
-│ ├── icon48.png
-│ └── icon128.png
+│ ├── icon24.png
 ├── index.html
 ├── style.css
 ├── script.js
